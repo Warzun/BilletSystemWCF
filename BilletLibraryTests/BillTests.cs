@@ -11,11 +11,11 @@ namespace BilletLibrary.Tests
     [TestClass()]
     public class BillTests
     {
-        [TestMethod()]
-        public void BilTest()
-        {
-            Assert.Fail();
-        }
+        //[TestMethod()]
+        //public void BilTest()
+        //{
+        //    Assert.Fail();
+        //}
 
         [TestMethod()]
         public void PrisTest()
@@ -41,20 +41,20 @@ namespace BilletLibrary.Tests
             Assert.AreEqual("Bil", køretøjslags);
         }
 
-        [TestMethod()]
-        public void BrobizzTestBil()
-        {
-            // Arrange
-            var bilmedbrobizz = new Bill("Ford", false, new DateTime(2017, 09, 01), true, false);
+        //[TestMethod()]
+        //public void BrobizzTestBil()
+        //{
+        //    // Arrange
+        //    var bilmedbrobizz = new Bill("Ford", false, new DateTime(2017, 09, 01), true, false);
 
-            // Act
-            bool brobizzresult = bilmedbrobizz.Brobizz;
+        //    // Act
+        //    bool brobizzresult = bilmedbrobizz.Brobizz;
 
-            // Assert
-            Assert.AreEqual(true, brobizzresult);
-        }
+        //    // Assert
+        //    Assert.AreEqual(true, brobizzresult);
+        //}
 
-        
-        
+
+
     }
 }
